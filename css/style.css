@@ -1,0 +1,104 @@
+@font-face {
+    font-family: headerFont;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+body{
+    background-color: #f7ecde;
+}
+.title{
+    font-family: headerFont;
+    font-size: 50px;
+
+}
+.title span{
+    position: relative;
+}
+.title span::before{
+    background-color: #fec260;
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    bottom: 15%;
+    width: 100%;
+    z-index: -1;
+    height: 22%;
+}
+.title span:hover::before{
+height: 45%;
+}
+.hello{
+    background-image: linear-gradient(to right,#3ca55c, #b5ac49);
+    color: transparent;
+    font-size: 25px;
+    background-clip: text;
+}
+.selfBorder{
+    border-bottom: 2px dotted black;
+    width: 80%;
+    color: #352e28;
+
+}
+.btn_color{
+    color: white;
+    background-color: #d1512d;
+    --bs-btn-hover-color:white;
+    --bs-btn-hover-bg:hsl(13, 65%, 46%);
+    --bs-btn-hover-border-color:var(--bs-btn-hover-bg);
+}
+
+.btn:hover{
+    color:var(--bs-btn-hover-color);
+    background-color:var(--bs-btn-hover-bg);
+    border-color:var(--bs-btn-hover-border-color)}
+
+
+    .self-width{
+        width: 81.5%;
+    }
+    table{
+        /* height: 100px; */
+
+    }
+    .input_focus:focus{
+        box-shadow: 0 0 0 .20rem rgba(254, 194, 96,0.25) !important;
+        border-color: #fec260 !important ;
+        /* outline-color: #fec260 !important ; */
+    }
+    thead,tr{
+        border-bottom: 1px solid rgb(215, 213, 213);
+    }
+    .modal-header,.modal-body{
+        border-bottom: 0 !important;
+
+    }
+    .modal-header{
+height: 50px;
+    }
+    .modal-title p{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+margin-top: 1rem;
+        display: inline-block;
+    }
+    .backg{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .width{
+        width: 30%;
+    }
+    .btn_color2{
+
+    }
+    .visit-bg{
+
+        color: white;
+        background-color: #9eb23b;
+        --bs-btn-hover-color:white;
+        --bs-btn-hover-bg:hsl(70, 50%, 42%);
+        --bs-btn-hover-border-color:var(--bs-btn-hover-bg);
+        
+    }
+
+    
